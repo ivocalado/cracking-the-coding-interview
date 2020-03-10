@@ -1,4 +1,4 @@
-package tools;
+package cracking_code.tools;
 
 public class Pair<T, K> {
 	T p1;
@@ -11,6 +11,23 @@ public class Pair<T, K> {
 		result = prime * result + ((p1 == null) ? 0 : p1.hashCode());
 		result = prime * result + ((p2 == null) ? 0 : p2.hashCode());
 		return result;
+	}
+	
+	public Pair(T p1, K p2) {
+		this.p1 = p1;
+		this.p2 = p2;
+	}
+	
+	public Pair() {
+		
+	}
+	
+	public T getFirst() {
+		return p1;
+	}
+	
+	public K getSecond() {
+		return p2;
 	}
 	@Override
 	public boolean equals(Object obj) {

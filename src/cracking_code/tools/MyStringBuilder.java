@@ -1,4 +1,4 @@
-package tools;
+package cracking_code.tools;
 
 public class MyStringBuilder {
 	char[] buffer;
