@@ -1,9 +1,6 @@
 package cracking_code.tools;
 
-class MyNode<T> {
-	T value;
-	MyNode<T> nextNode = null;
-}
+
 
 public class MyLinkedList<T> {
 	MyNode<T> head = null;
@@ -76,6 +73,15 @@ public class MyLinkedList<T> {
 
 	public int size() {
 		return sz;
+	}
+	
+	public void print() {
+		for(int i = 0; i < size(); i++) {
+			System.out.print(get(i));
+			if(i < size() - 1)
+				System.out.print(" -> ");
+		}
+		System.out.println();
 	}
 
 	public static void main(String[] args) {

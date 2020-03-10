@@ -1,4 +1,4 @@
-package arrays_and_strings;
+package cracking_code.arrays_and_strings;
 
 /**
  * Implement a method to perform basic string compression using the counts of

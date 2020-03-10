@@ -1,4 +1,4 @@
-package arrays_and_strings;
+package cracking_code.arrays_and_strings;
 
 /**
  * Given an image represented by an NxN matrix, where each pixel in the image is
